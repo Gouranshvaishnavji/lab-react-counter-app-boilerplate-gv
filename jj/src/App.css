@@ -21,14 +21,12 @@ body {
   font-size: 2rem;
   color: steelblue;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .count {
   color: darkorange;
   font-size: 1.5rem;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 button {
@@ -46,5 +44,9 @@ button {
 button:hover {
   background-color: #5050aa;
   color: white;
+  outline: none;
+}
+
+button:focus {
   outline: none;
 }
